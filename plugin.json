@@ -1,0 +1,20 @@
+{
+  "pluginType": "datasource",
+  "name": "TestDatasource",
+
+  "type": "testDatasource",
+  "serviceName": "TestDatasource",
+
+  "module": "plugins/test_ds/datasource",
+
+  "partials": {
+    "config": "public/plugins/test_ds/config.html"
+  },
+
+  "staticRoot": {
+    "url": "test_ds",
+    "path": "."
+  },
+
+  "metrics": true
+}
